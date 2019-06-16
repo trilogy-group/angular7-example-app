@@ -1,0 +1,30 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: shah-1-config
+  namespace: jx-preview
+data:
+  env : "prev"
+  
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: shah-1-config
+  namespace: jx-staging
+data:
+  env : "stag"
+  
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: shah-1-config
+  namespace: jx-production
+data:
+  env : "prod"
+  
+
