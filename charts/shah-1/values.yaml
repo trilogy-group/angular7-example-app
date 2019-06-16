@@ -37,11 +37,11 @@ isstateful: False
 
 resources:
   limits:
-    cpu: 8000m
     memory: 30000Mi
+    cpu: 8000m
   requests:
-    cpu: 100m
     memory: 128Mi
+    cpu: 100m
 
 
 
